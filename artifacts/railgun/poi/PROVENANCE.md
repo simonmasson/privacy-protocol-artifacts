@@ -36,6 +36,3 @@ and aborts unless the verifying key embedded in the proving key equals the relea
 These keys replace an earlier POI key set (same alpha/beta/gamma, different delta and circuit
 constraints): proofs from one set do not verify against the other. Use them only with a POI node
 that verifies against this release's `vkey.json`.
-
-The loose files next to these folders (`03x03_proving_key.bin`, `03x03.wasm`, …) are from the
-earlier set and are not read by the kohaku loader (which reads `<circuit>/*.br`).
